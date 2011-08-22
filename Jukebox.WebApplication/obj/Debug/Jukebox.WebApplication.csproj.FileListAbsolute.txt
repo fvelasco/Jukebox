@@ -1,0 +1,7 @@
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\Jukebox.WebApplication.dll
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\Jukebox.WebApplication.pdb
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\EntityFramework.dll
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\EntityFramework.xml
+C:\Projects\Jukebox\Jukebox.WebApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Jukebox\Jukebox.WebApplication\obj\Debug\Jukebox.WebApplication.dll
+C:\Projects\Jukebox\Jukebox.WebApplication\obj\Debug\Jukebox.WebApplication.pdb
