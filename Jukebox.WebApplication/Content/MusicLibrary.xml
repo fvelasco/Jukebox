@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<musicLibrary xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <artist id="4c359791-df17-4018-9cc6-789a0f711489" name="Arctic Monkeys">
+    <albums id="301f56cc-aa91-4079-8417-c6b04237bc0f" name="Suck It And See">
+      <track id="65cd45d6-12f3-411f-bab1-81353a23563e" path="C:\Music\Arctic Monkeys\Suck It And See\All My Own Stunts.mp3" name="All My Own Stunts" duration="232.333" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>7</number>
+        <year>2011</year>
+      </track>
+      <track id="22ab169b-1173-4dea-bc3b-d4ace1a8ca1f" path="C:\Music\Arctic Monkeys\Suck It And See\Black Treacle.mp3" name="Black Treacle" duration="215.197" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>2</number>
+        <year>2011</year>
+      </track>
+      <track id="e67a5c64-8c57-484b-b94c-5b2fa340f8e9" path="C:\Music\Arctic Monkeys\Suck It And See\Brick By Brick.mp3" name="Brick By Brick" duration="179.98399999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>3</number>
+        <year>2011</year>
+      </track>
+      <track id="34a9582c-fc04-47ea-af28-8e22dc42e6c4" path="C:\Music\Arctic Monkeys\Suck It And See\Don't Sit Down 'Cause I've Moved Your Chair.mp3" name="Don't Sit Down 'Cause I've Moved Your Chair" duration="183.56199999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>5</number>
+        <year>2011</year>
+      </track>
+      <track id="6697954d-1c40-4016-a473-00686391269c" path="C:\Music\Arctic Monkeys\Suck It And See\Library Pictures.mp3" name="Library Pictures" duration="142.237" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>6</number>
+        <year>2011</year>
+      </track>
+      <track id="f91608fe-30ba-4f8c-b20b-b688d8457c86" path="C:\Music\Arctic Monkeys\Suck It And See\Love Is A Laserquest.mp3" name="Love Is A Laserquest" duration="191.504" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>10</number>
+        <year>2011</year>
+      </track>
+      <track id="bd1d4973-8f1e-46cd-b517-3e32423291c6" path="C:\Music\Arctic Monkeys\Suck It And See\Piledriver Waltz.mp3" name="Piledriver Waltz" duration="203.938" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>9</number>
+        <year>2011</year>
+      </track>
+      <track id="b821bb0a-921b-4c24-93a2-f4df0ce1e483" path="C:\Music\Arctic Monkeys\Suck It And See\Reckless Serenade.mp3" name="Reckless Serenade" duration="162.821" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>8</number>
+        <year>2011</year>
+      </track>
+      <track id="c2f47d4f-407f-438d-8d67-6b51c44b9e6d" path="C:\Music\Arctic Monkeys\Suck It And See\She's Thunderstorms.mp3" name="She's Thunderstorms" duration="234.998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>1</number>
+        <year>2011</year>
+      </track>
+      <track id="3aeb661a-9bea-4128-8d09-6396df3876b4" path="C:\Music\Arctic Monkeys\Suck It And See\Suck It And See.mp3" name="Suck It And See" duration="226.064" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>11</number>
+        <year>2011</year>
+      </track>
+      <track id="e750a560-2231-494e-b313-bef6478d9f74" path="C:\Music\Arctic Monkeys\Suck It And See\That's Where You're Wrong.mp3" name="That's Where You're Wrong" duration="256.86199999999997" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>12</number>
+        <year>2011</year>
+      </track>
+      <track id="2de422fc-0271-4500-b24a-5a0038181ef1" path="C:\Music\Arctic Monkeys\Suck It And See\The Hellcat Spangled Shalalala.mp3" name="The Hellcat Spangled Shalalala" duration="180.376" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\301f56cc-aa91-4079-8417-c6b04237bc0f.png" genre="Indie Rock">
+        <number>4</number>
+        <year>2011</year>
+      </track>
+    </albums>
+    <albums id="d8f268b1-6888-4727-b1d6-6985a5d4d359" name="Whatever People Say I Am, That's What I'm Not">
+      <track id="65779e03-10ab-4112-ab3d-0bc29ad89215" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\01 The View From The Afternoon.mp3" name="The View From The Afternoon" duration="218.201" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>1</number>
+        <year>2006</year>
+      </track>
+      <track id="f0b7826f-0e2b-4794-b94e-16cdb750b616" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\02 I Bet You Look Good On The Dancef.mp3" name="I Bet You Look Good On The Dancefloor" duration="173.73999999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>2</number>
+        <year>2006</year>
+      </track>
+      <track id="dd65a5c4-536d-431f-86eb-b5e276398395" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\03 Fake Tales Of San Francisco.mp3" name="Fake Tales Of San Francisco" duration="178.025" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>3</number>
+        <year>2006</year>
+      </track>
+      <track id="68e80cec-464f-4b29-b7d2-6b1fa2c1836b" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\04 Dancing Shoes.mp3" name="Dancing Shoes" duration="141.192" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>4</number>
+        <year>2006</year>
+      </track>
+      <track id="9fcf9a5d-7e8e-40d2-8dd3-6933e933f3f8" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\05 You Probably Couldn't See For The.mp3" name="You Probably Couldn't See For The Lights But You Were Staring Straight At Me" duration="130.873" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>5</number>
+        <year>2006</year>
+      </track>
+      <track id="959101b4-2ade-4d44-a6f7-cda011460de9" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\06 Still Take You Home.mp3" name="Still Take You Home" duration="173.73999999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>6</number>
+        <year>2006</year>
+      </track>
+      <track id="a8f09ce3-4cd0-4f57-99e7-492d5b2be603" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\07 Riot Van.mp3" name="Riot Van" duration="135.001" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>7</number>
+        <year>2006</year>
+      </track>
+      <track id="ea4a5ca4-6b51-4fc9-8109-66ab227cd51b" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\08 Red Light Indicates Doors Are Sec.mp3" name="Red Light Indicates Doors Are Secured" duration="143.7" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>8</number>
+        <year>2006</year>
+      </track>
+      <track id="dd1e97e7-cf2a-4c59-8f83-f7532e971208" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\09 Mardy Bum.mp3" name="Mardy Bum" duration="175.517" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>9</number>
+        <year>2006</year>
+      </track>
+      <track id="a6e3f52e-3a0e-48b7-b7fe-cb63abec2022" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\10 Perhaps Vampires Is A Bit Strong.mp3" name="Perhaps Vampires Is A Bit Strong But..." duration="268.69599999999997" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>10</number>
+        <year>2006</year>
+      </track>
+      <track id="00c08f50-6007-44b3-8078-a72db223e9d4" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\11 When The Sun Goes Down.mp3" name="When The Sun Goes Down" duration="200.072" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>11</number>
+        <year>2006</year>
+      </track>
+      <track id="6250cafb-cf64-4d26-9aca-a7d82cc0beb2" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\12 From The Ritz To The Rubble.mp3" name="From The Ritz To The Rubble" duration="193.489" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>12</number>
+        <year>2006</year>
+      </track>
+      <track id="c8118507-1651-498e-b88d-6fdf1117a312" path="C:\Music\Arctic Monkeys\Whatever People Say I Am, That's What I'\13 A Certain Romance.mp3" name="A Certain Romance" duration="331.25899999999996" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\d8f268b1-6888-4727-b1d6-6985a5d4d359.png" genre="Indie Rock">
+        <number>13</number>
+        <year>2006</year>
+      </track>
+    </albums>
+  </artist>
+  <artist id="69b452ce-a0dc-4f00-8116-83bf7dcd8c40" name="Darwin Deez">
+    <albums id="b1702482-f6fc-491f-8d7b-ee59ce5adfe7" name="Darwin Deez">
+      <track id="39a7cd0b-ff53-4886-b217-aa2b91016b16" path="C:\Music\Darwin Deez\Darwin Deez\01 Constellations.mp3" name="Constellations" duration="195.396" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>1</number>
+        <year>2010</year>
+      </track>
+      <track id="fe2f5946-c5f5-4959-8141-60fae9160d3f" path="C:\Music\Darwin Deez\Darwin Deez\02 Deep Sea Divers.mp3" name="Deep Sea Divers" duration="218.77599999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>2</number>
+        <year>2010</year>
+      </track>
+      <track id="ab1eb8c6-b4c4-4b89-97d7-6e7a78804b1b" path="C:\Music\Darwin Deez\Darwin Deez\03 The City.mp3" name="The City" duration="203.91199999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>3</number>
+        <year>2010</year>
+      </track>
+      <track id="dad63ba0-f42c-44f9-85f0-3145f497da05" path="C:\Music\Darwin Deez\Darwin Deez\04 DNA.mp3" name="DNA" duration="172.042" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>4</number>
+        <year>2010</year>
+      </track>
+      <track id="338b651f-bfee-4efe-b7a0-6f00b3dafafb" path="C:\Music\Darwin Deez\Darwin Deez\05 The Suicide Song.mp3" name="The Suicide Song" duration="147.017" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>5</number>
+        <year>2010</year>
+      </track>
+      <track id="a6990eec-3465-4bdf-a673-1f6c3ff0ecfe" path="C:\Music\Darwin Deez\Darwin Deez\06 Up In The Clouds.mp3" name="Up In The Clouds" duration="213.76" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>6</number>
+        <year>2010</year>
+      </track>
+      <track id="1739f8e3-e284-4651-a788-c97059fe1d74" path="C:\Music\Darwin Deez\Darwin Deez\07 Bed Space.mp3" name="Bed Space" duration="212.506" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>7</number>
+        <year>2010</year>
+      </track>
+      <track id="01b48db2-d320-4e10-af6b-c0f6c06af862" path="C:\Music\Darwin Deez\Darwin Deez\08 The Bomb Song.mp3" name="The Bomb Song" duration="228.362" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>8</number>
+        <year>2010</year>
+      </track>
+      <track id="300b9381-d7fb-4a34-9a89-1ca367dd49d6" path="C:\Music\Darwin Deez\Darwin Deez\09 Radar Detector.mp3" name="Radar Detector" duration="189.884" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>9</number>
+        <year>2010</year>
+      </track>
+      <track id="a20bbefe-e23d-4b95-967f-19ebcc4d8a84" path="C:\Music\Darwin Deez\Darwin Deez\10 Bad Day.mp3" name="Bad Day" duration="186.17499999999998" image="C:\Projects\Jukebox\Jukebox.WebApplication\Content\\Images\\b1702482-f6fc-491f-8d7b-ee59ce5adfe7.png" genre="Alternative &amp; Punk">
+        <number>10</number>
+        <year>2010</year>
+      </track>
+    </albums>
+  </artist>
+</musicLibrary>

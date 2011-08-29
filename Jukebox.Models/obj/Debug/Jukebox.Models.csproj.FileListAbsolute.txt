@@ -1,0 +1,5 @@
+C:\Projects\Jukebox\Jukebox.Models\Bin\Debug\Jukebox.Models.dll
+C:\Projects\Jukebox\Jukebox.Models\Bin\Debug\Jukebox.Models.pdb
+C:\Projects\Jukebox\Jukebox.Models\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Jukebox\Jukebox.Models\obj\Debug\Jukebox.Models.dll
+C:\Projects\Jukebox\Jukebox.Models\obj\Debug\Jukebox.Models.pdb

@@ -124,8 +124,6 @@ C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.Windows.Cont
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.Windows.Interactivity.dll
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.ComponentModel.Composition.dll
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\Microsoft.Expression.Interactions.xml
-C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\SimpleMvvmToolkit.pdb
-C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\SimpleMvvmToolkit.xml
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.ComponentModel.DataAnnotations.xml
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.Windows.Controls.Data.Input.xml
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.Windows.Interactivity.xml
@@ -227,3 +225,5 @@ C:\Projects\Jukebox\Jukebox.SilverlightApplication\obj\Debug\Jukebox.Silverlight
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\obj\Debug\Jukebox.SilverlightApplication.dll
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\obj\Debug\Jukebox.SilverlightApplication.pdb
 C:\Projects\Jukebox\Jukebox.SilverlightApplication\obj\Debug\XapCacheFile.xml
+C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\Jukebox.Models.dll
+C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\Jukebox.Models.pdb

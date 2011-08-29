@@ -9,12 +9,12 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
+using Jukebox.Models;
 
 namespace Jukebox.SilverlightApplication
 {
     public partial class App : Application
     {
-
         public App()
         {
             this.Startup += this.Application_Startup;
@@ -23,6 +23,7 @@ namespace Jukebox.SilverlightApplication
 
             InitializeComponent();
         }
+
 
         private void Application_Startup(object sender, StartupEventArgs e)
         {

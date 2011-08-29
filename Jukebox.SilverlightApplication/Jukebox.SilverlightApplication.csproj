@@ -112,6 +112,16 @@
   <ItemGroup>
     <Content Include="ReadMe.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Jukebox.Common\Jukebox.Common.csproj">
+      <Project>{C1D82A14-1EEE-47E8-A4D4-7E6A6C6E6C8F}</Project>
+      <Name>Jukebox.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Jukebox.Models\Jukebox.Models.csproj">
+      <Project>{9513BA88-EAB8-4741-B779-17B0385C60F0}</Project>
+      <Name>Jukebox.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\$(SilverlightVersion)\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

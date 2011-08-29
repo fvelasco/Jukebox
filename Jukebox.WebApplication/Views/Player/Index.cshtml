@@ -1,0 +1,188 @@
+﻿@{
+
+}
+<div id="playlist-container">
+    <a href="javascript:PlayOrPause()">Play / Pause</a>
+    <div id="ticker">
+        0</div>
+    <div class="clear">
+    </div>
+    <ul id="playlist">
+    </ul>
+</div>
+<div id="selector-container">
+    <ul id="artists-index">
+        @for (int i = 65; i <= 90; i++)
+        {
+            <li><a href="javascript:GetArtists('@((char)i)')">@((char)i)</a></li>
+        }
+    </ul>
+    <div class="clear">
+    </div>
+    <ul id="artists">
+    </ul>
+    <ul id="albums">
+    </ul>
+</div>
+<div class="clear">
+</div>
+<script type="text/javascript" language="javascript">
+    var count = 0;
+
+    $(document).ready(function () {
+        GetPlaylist();
+    });
+
+    function GetPlaylist() {
+        var oData;
+
+        $.getJSON("/Player/GetPlaylist",
+        function (data) { oData = data; })
+        .success(function () {
+            CreatePlaylist("playlist", oData.aaTracks);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            alert("Error");
+        });
+    }
+
+    function CreatePlaylist(listId, aaTracks) {
+        $("ul#" + listId).html("");
+
+        $.each(aaTracks, function (i, item) {
+            $("ul#" + listId).append(
+                "<li>"
+                    + "<span class=\"title\">" + item[0] + "</span> "
+                    + "<span class=\"duration\">" + item[5] + "</span><br \>"
+                    + "<span class=\"artist\">" + item[2] + "</span> "
+                + "</li>");
+        });
+
+        count++;
+
+        $("div#ticker").html(count);
+        UpdatePlaylist();
+    }
+
+    function UpdatePlaylist() {
+        setTimeout("GetPlaylist()", 1000);
+    }
+
+    function GetArtists(firstCharacter) {
+        var oData;
+
+        $.getJSON(("/Player/GetArtists?firstCharacter=" + firstCharacter),
+        function (data) { oData = data; })
+        .success(function () {
+            CreateArtists("artists", oData.aaArtists);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            alert("Error");
+        });
+    }
+
+    function CreateArtists(listId, aaArtists) {
+        $("ul#albums").html("");
+        $("ul#" + listId).html("");
+
+        $.each(aaArtists, function (i, item) {
+            $("ul#" + listId).append(
+                "<li>"
+                    + "<a href=\"javascript:GetAlbums('" + item[1] + "')\" >"
+                    + "<span class=\"name\">" + item[0] + "</span>"
+                    + "</a>"
+                + "</li>");
+        });
+    }
+
+    function GetAlbums(artistId) {
+        var oData;
+
+        $.getJSON(("/Player/GetAlbums?artistId=" + artistId),
+        function (data) { oData = data; })
+        .success(function () {
+            CreateAlbums(artistId, "albums", oData.aaAlbums);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            alert("Error");
+        });
+    }
+
+    function CreateAlbums(artistId, listId, aaAlbums) {
+        $("ul#" + listId).html("");
+
+        $.each(aaAlbums, function (i, item) {
+            $("ul#" + listId).append(
+                "<li>"
+                    + "<img class=\"album-cover\" src=\"" + item.sImage + "\" title=\"" + item.sName + "\" /> "
+                    + "<ul class=\"tracks\">"
+                        + "<li><a href=\"javascript:AddAlbum('" + artistId + "', '" + item.gId + "')\" >"
+                        + "<span class=\"album-name\">" + item.sName + "</span>"
+                        + "</a> &nbsp; "
+                        + "<span class=\"album-year\">" + item.dYear + "</span></li>"
+                        + CreateTracks(item.aaTracks)
+                    + "</ul>"
+                + "</li>");
+        });
+    }
+
+    function CreateTracks(aaTracks) {
+        var list = "";
+        $.each(aaTracks, function (i, item) {
+            list += (
+                "<li>"
+                    + "<span class=\"number\">" + item[4] + ".</span> "
+                    + "<span class=\"add\" onclick=\"AddSong('" + item[7] + "', '" + item[1] + "')\" >"
+                        + "<span class=\"name\">" + item[0] + "</span>"
+                    + "</span> "
+                    + "<span class=\"duration\">" + item[5] + "</span>"
+                + "</li>");
+        });
+        return list;
+    }
+
+    function AddAlbum(artistId, albumId) {
+        $.getJSON(("/Player/AddAlbum?artistId=" + artistId + "&albumId=" + albumId),
+        function (data) { oData = data; })
+        .success(function () {
+            //alert(oData.sMessage);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            //alert("Error");
+        });
+    }
+    
+    function AddSong(id, path) {
+        $.getJSON(("/Player/AddSong?id=" + id + "&path=" + path),
+        function (data) { oData = data; })
+        .success(function () {
+            //alert(oData.sMessage);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            //alert("Error");
+        });
+    }
+
+    function PlayOrPause() {
+        $.getJSON("/Player/PlayOrPause",
+        function (data) { oData = data; })
+        .success(function () {
+            //alert(oData.sMessage);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            alert("Error");
+        });
+    }
+
+    function Stop() {
+        $.getJSON("/Player/Stop",
+        function (data) { oData = data; })
+        .success(function () {
+            //alert(oData.sMessage);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            alert("Error");
+        });
+    }
+    
+</script>

@@ -1,11 +1,12 @@
-﻿<xapCache source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\Jukebox.SilverlightApplication.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="22/08/2011 10:41:25">
-  <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\obj\Debug\Jukebox.SilverlightApplication.dll" archivePath="Jukebox.SilverlightApplication.dll" lastWriteTime="22/08/2011 10:41:24" />
+﻿<xapCache source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\Jukebox.SilverlightApplication.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="29/08/2011 23:15:16">
+  <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\obj\Debug\Jukebox.SilverlightApplication.dll" archivePath="Jukebox.SilverlightApplication.dll" lastWriteTime="29/08/2011 23:07:16" />
+  <file source="C:\Projects\Jukebox\Jukebox.Models\Bin\Debug\Jukebox.Models.dll" archivePath="Jukebox.Models.dll" lastWriteTime="29/08/2011 23:07:14" />
   <file source="c:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Silverlight\v4.0\Libraries\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="25/05/2010 17:59:20" />
   <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\SimpleMvvmToolkit.dll" archivePath="SimpleMvvmToolkit.dll" lastWriteTime="22/08/2011 10:31:35" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="26/08/2010 02:17:48" />
   <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v4.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="26/08/2010 02:17:48" />
   <file source="c:\Program Files (x86)\Microsoft SDKs\Expression\Blend\Silverlight\v4.0\Libraries\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="25/05/2010 17:59:20" />
-  <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.ComponentModel.Composition.dll" archivePath="System.ComponentModel.Composition.dll" lastWriteTime="22/08/2011 10:31:35" />
+  <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\System.ComponentModel.Composition.dll" archivePath="System.ComponentModel.Composition.dll" lastWriteTime="26/08/2010 02:17:48" />
   <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\ReadMe.txt" archivePath="ReadMe.txt" lastWriteTime="22/08/2011 10:31:35" />
-  <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="22/08/2011 10:33:13" />
+  <file source="C:\Projects\Jukebox\Jukebox.SilverlightApplication\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="29/08/2011 23:07:18" />
 </xapCache>

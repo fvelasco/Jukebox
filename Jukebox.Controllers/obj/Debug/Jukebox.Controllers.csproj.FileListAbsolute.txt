@@ -1,0 +1,8 @@
+C:\Projects\Jukebox\Jukebox.Controllers\bin\Debug\Jukebox.Controllers.dll
+C:\Projects\Jukebox\Jukebox.Controllers\bin\Debug\Jukebox.Controllers.pdb
+C:\Projects\Jukebox\Jukebox.Controllers\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\Jukebox\Jukebox.Controllers\obj\Debug\Jukebox.Controllers.dll
+C:\Projects\Jukebox\Jukebox.Controllers\obj\Debug\Jukebox.Controllers.pdb
+C:\Projects\Jukebox\Jukebox.Controllers\bin\Debug\UltraID3Lib.dll
+C:\Projects\Jukebox\Jukebox.Controllers\obj\Debug\Interop.WMPLib.dll
+C:\Projects\Jukebox\Jukebox.Controllers\obj\Debug\Jukebox.Controllers.csproj.ResolveComReference.cache

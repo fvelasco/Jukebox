@@ -5,3 +5,6 @@ C:\Projects\Jukebox\Jukebox.WebApplication\bin\EntityFramework.xml
 C:\Projects\Jukebox\Jukebox.WebApplication\obj\Debug\ResolveAssemblyReference.cache
 C:\Projects\Jukebox\Jukebox.WebApplication\obj\Debug\Jukebox.WebApplication.dll
 C:\Projects\Jukebox\Jukebox.WebApplication\obj\Debug\Jukebox.WebApplication.pdb
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\Jukebox.Controllers.dll
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\UltraID3Lib.dll
+C:\Projects\Jukebox\Jukebox.WebApplication\bin\Jukebox.Controllers.pdb

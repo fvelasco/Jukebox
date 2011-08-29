@@ -1,0 +1,512 @@
+<Configuration>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="53AD6976-3C63-4A1B-8B4F-EB337E351845/d:Models/f:MusicLibraryModel.cs" caret="181" fromTop="8" />
+      <File id="9513BA88-EAB8-4741-B779-17B0385C60F0/f:AlbumModel.cs" caret="148" fromTop="7" />
+      <File id="53AD6976-3C63-4A1B-8B4F-EB337E351845/d:Models/f:ArtistModel.cs" caret="403" fromTop="17" />
+      <File id="9513BA88-EAB8-4741-B779-17B0385C60F0/f:TrackModel.cs" caret="0" fromTop="0" />
+      <File id="9513BA88-EAB8-4741-B779-17B0385C60F0/f:MusicLibraryModel.cs" caret="103" fromTop="5" />
+      <File id="9513BA88-EAB8-4741-B779-17B0385C60F0/f:ArtistModel.cs" caret="118" fromTop="6" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/f:Web.config" caret="1075" fromTop="24" />
+      <File id="ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB/d:Views/f:CustomerView.xaml.cs" caret="528" fromTop="17" />
+      <File id="ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB/f:App.xaml.cs" caret="302" fromTop="10" />
+      <File id="ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB/f:App.xaml" caret="0" fromTop="0" />
+      <File id="ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB/f:MainPage.xaml" caret="0" fromTop="0" />
+      <File id="ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB/f:MainPage.xaml.cs" caret="0" fromTop="0" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Admin/f:Index.cshtml" caret="0" fromTop="0" />
+      <File id="53AD6976-3C63-4A1B-8B4F-EB337E351845/f:AdminController.cs" caret="646" fromTop="18" />
+      <File id="53AD6976-3C63-4A1B-8B4F-EB337E351845/d:Models/f:AlbumModel.cs" caret="674" fromTop="27" />
+      <File id="53AD6976-3C63-4A1B-8B4F-EB337E351845/d:Models/f:TrackModel.cs" caret="691" fromTop="15" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/f:Global.asax.cs" caret="675" fromTop="22" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Shared/f:_Layout.cshtml" caret="416" fromTop="15" />
+      <File id="53AD6976-3C63-4A1B-8B4F-EB337E351845/f:PlayerController.cs" caret="9109" fromTop="16" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Player/f:Index.cshtml" caret="25" fromTop="3" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="1808" fromTop="16" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2608" fromTop="16" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3318" fromTop="20" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3137" fromTop="4" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="1615" fromTop="11" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Shared/f:_Layout.cshtml" caret="257" fromTop="7" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Shared/f:_Layout.cshtml" caret="416" fromTop="15" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2826" fromTop="16" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2913" fromTop="23" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3731" fromTop="19" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2345" fromTop="7" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2040" fromTop="11" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="1576" fromTop="13" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="478" fromTop="16" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="585" fromTop="22" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="638" fromTop="26" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="726" fromTop="31" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="1712" fromTop="25" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3469" fromTop="9" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3940" fromTop="40" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3905" fromTop="36" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Player/f:Index.cshtml" caret="3593" fromTop="21" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Player/f:Index.cshtml" caret="235" fromTop="12" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Player/f:Index.cshtml" caret="562" fromTop="25" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2509" fromTop="34" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Views/d:Player/f:Index.cshtml" caret="25" fromTop="3" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2409" fromTop="22" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2170" fromTop="9" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="2674" fromTop="15" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="3283" fromTop="31" />
+      <File id="03B93E38-2B79-4D08-8B4E-8E79A00ACBA9/d:Content/f:Site.css" caret="1914" fromTop="21" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir IsNull="False">
+    </NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="livetemplates.csharp.usevar">True</setting>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="CSharpCodeCompletionContext">
+      <Item value="string" priority="639" />
+      <Item value="public" priority="223" />
+      <Item value="ListBox`0" priority="31" />
+      <Item value="Jukebox" priority="31" />
+      <Item value="Models" priority="53" />
+      <Item value="MusicLibraryModel`0" priority="186" />
+      <Item value="using" priority="61" />
+      <Item value="IEnumerable" priority="31" />
+      <Item value="MusicDirectoryModel`0" priority="31" />
+      <Item value="private" priority="191" />
+      <Item value="iTunesLib" priority="92" />
+      <Item value="IITFileOrCDTrack`0" priority="26" />
+      <Item value="iTunesApp`0" priority="85" />
+      <Item value="new" priority="641" />
+      <Item value="IITArtwork" priority="25" />
+      <Item value="var" priority="831" />
+      <Item value="fileInfo" priority="64" />
+      <Item value="FileInfo" priority="28" />
+      <Item value="File`0" priority="95" />
+      <Item value="FileAttributes`0" priority="31" />
+      <Item value="return" priority="287" />
+      <Item value="ViewContext`0" priority="31" />
+      <Item value="iTunes" priority="31" />
+      <Item value="iTunesAppClass`0" priority="26" />
+      <Item value="Itunes" priority="32" />
+      <Item value="short" priority="96" />
+      <Item value="foreach" priority="127" />
+      <Item value="in" priority="127" />
+      <Item value="ultraId3" priority="452" />
+      <Item value="if" priority="415" />
+      <Item value="picture" priority="31" />
+      <Item value="CommonID3v2FrameTypes`0" priority="31" />
+      <Item value="CommonMultipleInstanceID3v2FrameTypes`0" priority="31" />
+      <Item value="Directory`0" priority="31" />
+      <Item value="rootDirectory" priority="31" />
+      <Item value="MusicLibrary" priority="479" />
+      <Item value="TrackModel" priority="58" />
+      <Item value="Id" priority="127" />
+      <Item value="Guid`0" priority="98" />
+      <Item value="Name" priority="128" />
+      <Item value="Length" priority="32" />
+      <Item value="TimeSpan`0" priority="95" />
+      <Item value="InvalidCastException`0" priority="32" />
+      <Item value="AlbumModel" priority="28" />
+      <Item value="artistName" priority="160" />
+      <Item value="artist" priority="95" />
+      <Item value="StringComparison`0" priority="127" />
+      <Item value="album" priority="159" />
+      <Item value="ArtistModel`0" priority="95" />
+      <Item value="try" priority="127" />
+      <Item value="Exception" priority="28" />
+      <Item value="file" priority="63" />
+      <Item value="musicLibrary" priority="193" />
+      <Item value="MusicLibraryModel" priority="28" />
+      <Item value="artists" priority="96" />
+      <Item value="List&lt;ArtistModel&gt;" priority="57" />
+      <Item value="value" priority="31" />
+      <Item value="Any`1" priority="26" />
+      <Item value="Path" priority="98" />
+      <Item value="TrackModel`0" priority="127" />
+      <Item value="TextWriter`0" priority="63" />
+      <Item value="TrackModel1" priority="28" />
+      <Item value="Artists" priority="31" />
+      <Item value="IndexName" priority="65" />
+      <Item value="RegularExpressionAttributeAdapter`0" priority="31" />
+      <Item value="Text.RegularExpressions" priority="26" />
+      <Item value="Regex`0" priority="31" />
+      <Item value="static" priority="31" />
+      <Item value="MatchEvaluator`0" priority="32" />
+      <Item value="T`0" priority="31" />
+      <Item value="App`0" priority="31" />
+      <Item value="Uri" priority="28" />
+      <Item value="GetMusicLibrary`0" priority="31" />
+      <Item value="Loaded" priority="31" />
+      <Item value="Test" priority="127" />
+      <Item value="XmlString" priority="31" />
+      <Item value="e" priority="95" />
+      <Item value="OpenReadCompletedEventHandler" priority="28" />
+      <Item value="ex" priority="31" />
+      <Item value="ArtistModel1`0" priority="31" />
+      <Item value="View`0" priority="63" />
+      <Item value="Player" priority="383" />
+      <Item value="Request" priority="31" />
+      <Item value="DefaultViewLocationCache`0" priority="31" />
+      <Item value="HttpContext" priority="63" />
+      <Item value="null" priority="127" />
+      <Item value="DateTime`0" priority="63" />
+      <Item value="TimeSpan" priority="28" />
+      <Item value="player" priority="95" />
+      <Item value="Cache`0" priority="31" />
+      <Item value="ViewBag" priority="31" />
+      <Item value="li" priority="59" />
+      <Item value="track" priority="343" />
+      <Item value="WMPLib" priority="95" />
+      <Item value="IWMPMedia`0" priority="53" />
+      <Item value="WindowsMediaPlayer" priority="25" />
+      <Item value="WMPDolbyDigitalSettingsCtrlClass`0" priority="25" />
+      <Item value="IWMPMedia" priority="25" />
+      <Item value="WMPPlayState`0" priority="26" />
+      <Item value="for" priority="31" />
+      <Item value="i" priority="95" />
+      <Item value="item" priority="354" />
+      <Item value="media" priority="31" />
+      <Item value="attribute" priority="63" />
+      <Item value="out" priority="31" />
+      <Item value="trackNumber" priority="64" />
+      <Item value="DurationString" priority="32" />
+      <Item value="t" priority="95" />
+      <Item value="a" priority="319" />
+      <Item value="Tracks" priority="31" />
+      <Item value="this" priority="31" />
+      <Item value="path" priority="31" />
+      <Item value="break" priority="31" />
+      <Item value="true" priority="31" />
+      <Item value="addSong" priority="31" />
+      <Item value="tracks" priority="63" />
+      <Item value="List" priority="60" />
+      <Item value="Play`0" priority="31" />
+      <Item value="count" priority="31" />
+      <Item value="List&lt;IWMPMedia&gt;" priority="28" />
+      <Item value="mediaItems" priority="31" />
+      <Item value="else" priority="31" />
+      <Item value="firstCharacter" priority="63" />
+      <Item value="GetArtists`0" priority="31" />
+      <Item value="Guid" priority="57" />
+      <Item value="artistId" priority="63" />
+      <Item value="AlbumModel`0" priority="31" />
+      <Item value="GetTrackJson`0" priority="31" />
+      <Item value="ul" priority="29" />
+      <Item value="HttpUtility`0" priority="31" />
+      <Item value="HttpRequest`0" priority="31" />
+      <Item value="albumId" priority="31" />
+      <Item value="AddSong`0" priority="31" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.FileInfo">
+      <Item value="Attributes" priority="26" />
+      <Item value="FullName" priority="81" />
+      <Item value="Extension" priority="26" />
+      <Item value="Name" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iTunesLib.IiTunes">
+      <Item value="LibraryPlaylist" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iTunesLib.IITLibraryPlaylist">
+      <Item value="Tracks" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:iTunesLib.IITTrackCollection">
+      <Item value="Count" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HundredMilesSoftware.UltraID3Lib.UltraID3">
+      <Item value="Title" priority="54" />
+      <Item value="Artist" priority="80" />
+      <Item value="Album" priority="80" />
+      <Item value="Year" priority="81" />
+      <Item value="Comments" priority="26" />
+      <Item value="Genre" priority="81" />
+      <Item value="TrackNum" priority="54" />
+      <Item value="Duration" priority="54" />
+      <Item value="PictureTypeInfos" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@HundredMilesSoftware.UltraID3Lib.MultipleInstanceID3v2FrameTypes">
+      <Item value="ID3v23Picture" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@HundredMilesSoftware.UltraID3Lib.CommonID3v2FrameTypes">
+      <Item value="Picture" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@HundredMilesSoftware.UltraID3Lib.CommonMultipleInstanceID3v2FrameTypes">
+      <Item value="Picture" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:HundredMilesSoftware.UltraID3Lib.ID3v23PictureFrame">
+      <Item value="Picture" priority="53" />
+      <Item value="MIMEType" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.String">
+      <Item value="Format`0" priority="134" />
+      <Item value="Empty" priority="26" />
+      <Item value="Equals`0" priority="107" />
+      <Item value="IsNullOrEmpty`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Drawing.Imaging.ImageFormat">
+      <Item value="Png" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.Directory">
+      <Item value="CreateDirectory`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.IO.DirectoryInfo">
+      <Item value="GetDirectories`0" priority="26" />
+      <Item value="GetFiles`0" priority="53" />
+      <Item value="FullName" priority="26" />
+      <Item value="Exists" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Jukebox.Models.MusicLibraryModel">
+      <Item value="Artists" priority="188" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Guid">
+      <Item value="NewGuid`0" priority="83" />
+      <Item value="Empty" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Jukebox.Models.TrackModel">
+      <Item value="Image" priority="53" />
+      <Item value="Duration" priority="26" />
+      <Item value="Year" priority="26" />
+      <Item value="DurationString" priority="26" />
+      <Item value="Id" priority="26" />
+      <Item value="Path" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Jukebox.Common.Serialization.XmlSerialization">
+      <Item value="Serialize`1" priority="26" />
+      <Item value="GetDeserializedLocalFile`1" priority="26" />
+      <Item value="GetDeserializedRemoteFile`1" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Jukebox.Models.ArtistModel">
+      <Item value="Name" priority="53" />
+      <Item value="Albums" priority="134" />
+      <Item value="IndexName" priority="80" />
+      <Item value="Id" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.StringComparison">
+      <Item value="OrdinalIgnoreCase" priority="107" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.IEnumerable`1">
+      <Item value="FirstOrDefault`1" priority="26" />
+      <Item value="DefaultIfEmpty`1" priority="26" />
+      <Item value="First`1" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Collections.Generic.List`1">
+      <Item value="Add`0" priority="107" />
+      <Item value="OrderBy`2" priority="80" />
+      <Item value="Where`1" priority="53" />
+      <Item value="OrderByDescending`2" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Jukebox.Models.AlbumModel">
+      <Item value="Id" priority="26" />
+      <Item value="Tracks" priority="53" />
+      <Item value="Name" priority="26" />
+      <Item value="Year" priority="80" />
+      <Item value="Genre" priority="53" />
+      <Item value="Image" priority="53" />
+      <Item value="TracksOrderedByNumber" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.IO.File">
+      <Item value="Exists`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.TimeSpan">
+      <Item value="TotalSeconds" priority="27" />
+      <Item value="Hours" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.String">
+      <Item value="Remove`0" priority="27" />
+      <Item value="TrimStart`0" priority="27" />
+      <Item value="ToLower`0" priority="53" />
+      <Item value="Length" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.Regex">
+      <Item value="Replace`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Text.RegularExpressions.MatchEvaluator">
+      <Item value="Remove`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Jukebox.SilverlightApplication.App">
+      <Item value="Current" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Windows.Controls.TextBlock">
+      <Item value="Text" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.DownloadStringCompletedEventArgs">
+      <Item value="Result" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Net.OpenReadCompletedEventArgs">
+      <Item value="Result" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Exception">
+      <Item value="Message" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="HtmlCodeCompletionContext">
+      <Item value="script" priority="5" />
+      <Item value="type" priority="5" />
+      <Item value="text/C#" priority="5" />
+      <Item value="text/javascript" priority="5" />
+      <Item value="language" priority="5" />
+      <Item value="javascript" priority="5" />
+      <Item value="a" priority="5" />
+      <Item value="href" priority="17" />
+      <Item value="br" priority="5" />
+      <Item value="li" priority="15" />
+      <Item value="Index.cshtml" priority="11" />
+      <Item value="." priority="5" />
+      <Item value="class" priority="24" />
+      <Item value="ul" priority="19" />
+      <Item value="id" priority="35" />
+      <Item value="style" priority="11" />
+      <Item value="float" priority="6" />
+      <Item value="div" priority="41" />
+      <Item value="clear" priority="18" />
+      <Item value="playlist" priority="5" />
+      <Item value="h1" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="JavaScriptSpecificContext">
+      <Item value="alert" priority="76" />
+      <Item value="String" priority="10" />
+      <Item value="id" priority="10" />
+      <Item value="UpdatePlaylist" priority="21" />
+      <Item value="var" priority="32" />
+      <Item value="firstLetter" priority="10" />
+      <Item value="item" priority="32" />
+      <Item value="return" priority="10" />
+      <Item value="list" priority="21" />
+      <Item value="albumId" priority="10" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WMPLib.WindowsMediaPlayer">
+      <Item value="controls" priority="53" />
+      <Item value="currentPlaylist" priority="188" />
+      <Item value="newMedia`0" priority="26" />
+      <Item value="playState" priority="26" />
+      <Item value="CurrentItemChange" priority="26" />
+      <Item value="currentMedia" priority="26" />
+      <Item value="PlayStateChange" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WMPLib.IWMPControls">
+      <Item value="stop`0" priority="26" />
+      <Item value="play`0" priority="26" />
+      <Item value="pause`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpContextBase">
+      <Item value="Cache" priority="53" />
+      <Item value="Request" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.Caching.Cache">
+      <Item value="Add`0" priority="26" />
+      <Item value="Get`0" priority="26" />
+      <Item value="Insert`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.CacheItemPriority">
+      <Item value="High" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.TimeSpan">
+      <Item value="Zero" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.Caching.Cache">
+      <Item value="NoAbsoluteExpiration" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="RazorTransitionCompletionContext">
+      <Item value="track" priority="33" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WMPLib.IWMPPlaylist">
+      <Item value="appendItem`0" priority="26" />
+      <Item value="get_Item`0" priority="26" />
+      <Item value="count" priority="26" />
+      <Item value="removeItem`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WMPLib.WMPPlayState">
+      <Item value="Equals`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@WMPLib.WMPPlayState">
+      <Item value="wmppsPlaying" priority="26" />
+      <Item value="wmppsPaused" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:WMPLib.IWMPMedia">
+      <Item value="name" priority="108" />
+      <Item value="sourceURL" priority="108" />
+      <Item value="getAttributeName`0" priority="26" />
+      <Item value="attributeCount" priority="26" />
+      <Item value="getItemInfo`0" priority="26" />
+      <Item value="getItemInfoByAtom`0" priority="26" />
+      <Item value="durationString" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Int16">
+      <Item value="TryParse`0" priority="27" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Linq.IOrderedEnumerable`1">
+      <Item value="All`1" priority="26" />
+      <Item value="ToList`1" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Web.HttpUtility">
+      <Item value="UrlDecode`0" priority="26" />
+      <Item value="HtmlEncode`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="CssCodeCompletionContext">
+      <Item value="span" priority="17" />
+      <Item value="add" priority="4" />
+      <Item value="visited" priority="4" />
+      <Item value="cursor" priority="5" />
+      <Item value="pointer" priority="6" />
+      <Item value="float" priority="54" />
+      <Item value="clear" priority="6" />
+      <Item value="artists-index" priority="5" />
+      <Item value="selector-container" priority="4" />
+      <Item value="width" priority="47" />
+      <Item value="border" priority="47" />
+      <Item value="playlist-container" priority="4" />
+      <Item value="margin-left" priority="5" />
+      <Item value="margin" priority="65" />
+      <Item value="padding" priority="41" />
+      <Item value="min-height" priority="11" />
+      <Item value="height" priority="29" />
+      <Item value="auto" priority="5" />
+      <Item value="margin-right" priority="5" />
+      <Item value="albums" priority="4" />
+      <Item value="ticker" priority="4" />
+      <Item value="display" priority="5" />
+      <Item value="img" priority="5" />
+      <Item value="font-weight" priority="29" />
+      <Item value="ul" priority="5" />
+      <Item value="both" priority="5" />
+      <Item value="left" priority="11" />
+      <Item value="border-bottom" priority="5" />
+      <Item value="none" priority="5" />
+      <Item value="orangered" priority="19" />
+      <Item value="text-transform" priority="5" />
+      <Item value="uppercase" priority="6" />
+      <Item value="position" priority="29" />
+      <Item value="relative" priority="20" />
+      <Item value="background-color" priority="5" />
+      <Item value="background" priority="5" />
+      <Item value="absolute" priority="13" />
+      <Item value="letter-spacing" priority="5" />
+      <Item value="top" priority="11" />
+      <Item value="font-size" priority="5" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Nullable`1">
+      <Item value="ToString`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Char">
+      <Item value="ToString`0" priority="53" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Guid">
+      <Item value="ToString`0" priority="80" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Web.HttpRequestBase">
+      <Item value="ApplicationPath" priority="26" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

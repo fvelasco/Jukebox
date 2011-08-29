@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jukebox.Controllers", "Jukebox.Controllers\Jukebox.Controllers.csproj", "{53AD6976-3C63-4A1B-8B4F-EB337E351845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jukebox.Models", "Jukebox.Models\Jukebox.Models.csproj", "{9513BA88-EAB8-4741-B779-17B0385C60F0}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jukebox.SilverlightApplication", "Jukebox.SilverlightApplication\Jukebox.SilverlightApplication.csproj", "{ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jukebox.WebApplication", "Jukebox.WebApplication\Jukebox.WebApplication.csproj", "{03B93E38-2B79-4D08-8B4E-8E79A00ACBA9}"
@@ -11,6 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53AD6976-3C63-4A1B-8B4F-EB337E351845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53AD6976-3C63-4A1B-8B4F-EB337E351845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53AD6976-3C63-4A1B-8B4F-EB337E351845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53AD6976-3C63-4A1B-8B4F-EB337E351845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9513BA88-EAB8-4741-B779-17B0385C60F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9513BA88-EAB8-4741-B779-17B0385C60F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9513BA88-EAB8-4741-B779-17B0385C60F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9513BA88-EAB8-4741-B779-17B0385C60F0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADBE8A2A-8AFB-4CCF-8A2A-DF51038AF6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU

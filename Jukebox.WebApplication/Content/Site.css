@@ -4,30 +4,32 @@ to use a different color start by replacing all instances of
 #5c87b2 with your new color.
 ----------------------------------------------------------*/
 body {
-    background-color: #5c87b2;
+    background-color: #fff;
     font-size: .85em;
-    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-family: Arial;
     margin: 0;
     padding: 0;
-    color: #696969;
+    color: #000;
+    min-height: 100%;
 }
 
-a:link {
-    color: #034af3;
+a:link, span.add {
+    color: #050528;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:visited, span.add:visited {
+    color: #050528;
+}
+
+a:hover, span.add:hover {
+    color: #050528;
     text-decoration: underline;
 }
 
-a:visited {
-    color: #505abc;
-}
-
-a:hover {
-    color: #1d60ff;
-    text-decoration: none;
-}
-
-a:active {
-    color: #12eb87;
+a:active, span.add:active {
+    color: #050528;
 }
 
 p, ul {
@@ -40,6 +42,10 @@ footer,
 nav,
 section {
     display: block;
+}
+
+.clear {
+    clear: both;
 }
 
 /* HEADINGS   
@@ -77,248 +83,176 @@ h5, h6 {
 /* you can specify a greater or lesser percentage for the 
 page width. Or, you can specify an exact pixel width. */
 .page {
-    width: 90%;
+    width: 1100px;
+    margin: 20px auto;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
-header, #header {
-    position: relative;
+#banner {
+    position: absolute;
+    left: 0px;
+    top: 80px;
+    height: 20px;
+    background: #050528;
+    width: 100%;
     margin-bottom: 0px;
     color: #000;
     padding: 0;
 }
 
-header h1, #header h1 {
-    font-weight: bold;
-    padding: 5px 0;
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-size: 3.0em;
+    font-weight: normal;
     margin: 0;
-    color: #fff;
-    border: none;
-    line-height: 2em;
-    font-size: 32px !important;
-    text-shadow: 1px 1px 2px #111;
+    padding: 0;
+    color: #050528;
 }
 
-#main {
-    padding: 30px 30px 15px 30px;
-    background-color: #fff;
-    border-radius: 4px 0 0 0;
-    -webkit-border-radius: 4px 0 0 0;
-    -moz-border-radius: 4px 0 0 0;
+#main 
+{
+    width: 1100px;
+    float: left;
+    padding: 0;
 }
 
 footer, 
 #footer {
-    background-color: #fff;
     color: #999;
-    padding: 10px 0;
-    text-align: center;
-    line-height: normal;
-    margin: 0 0 30px 0;
-    font-size: .9em;
-    border-radius: 0 0 4px 4px;
-    -webkit-border-radius: 0 0 4px 4px;
-    -moz-border-radius: 0 0 4px 4px;
+    height: 30px;
 }
 
-/* TAB MENU   
-----------------------------------------------------------*/
-ul#menu {
-    border-bottom: 1px #5C87B2 solid;
-    padding: 0 0 2px;
-    position: relative;
-    margin: 0;
-    text-align: right;
-}
 
-ul#menu li {
-    display: inline;
-    list-style: none;
-}
-
-ul#menu li#greeting {
-    padding: 10px 20px;
-    font-weight: bold;
-    text-decoration: none;
-    line-height: 2.8em;
-    color: #fff;
-}
-
-ul#menu li a {
-    padding: 10px 20px;
-    font-weight: bold;
-    text-decoration: none;
-    line-height: 2.8em;
-    background-color: #e8eef4;
-    color: #034af3;
-    border-radius: 4px 4px 0 0;
-    -webkit-border-radius: 4px 4px 0 0;
-    -moz-border-radius: 4px 4px 0 0;
-}
-
-ul#menu li a:hover {
-    background-color: #fff;
-    text-decoration: none;
-}
-
-ul#menu li a:active {
-    background-color: #a6e2a6;
-    text-decoration: none;
-}
-
-ul#menu li.selected a {
-    background-color: #fff;
-    color: #000;
-}
-
-/* FORM LAYOUT ELEMENTS   
-----------------------------------------------------------*/
-
-fieldset {
-    border: 1px solid #ddd;
-    padding: 0 1.4em 1.4em 1.4em;
-    margin: 0 0 1.5em 0;
-}
-
-legend {
-    font-size: 1.2em;
-    font-weight: bold;
-}
-
-textarea {
-    min-height: 75px;
-}
-
-input[type="text"], 
-input[type="password"] {
-    border: 1px solid #ccc;
-    padding: 2px;
-    font-size: 1.2em;
-    color: #444;
-    width: 200px;
-}
-
-select {
-    border: 1px solid #ccc;
-    padding: 2px;
-    font-size: 1.2em;
-    color: #444;
-}
-
-input[type="submit"] {
-    font-size: 1.2em;
-    padding: 5px;
-}
-
-/* TABLE
-----------------------------------------------------------*/
-
-table {
-    border: solid 1px #e8eef4;
-    border-collapse: collapse;
-}
-
-table td {
-    padding: 5px;
-    border: solid 1px #e8eef4;
-}
-
-table th {
-    padding: 6px 5px;
-    text-align: left;
-    background-color: #e8eef4;
-    border: solid 1px #e8eef4;
-}
-
-/* MISC  
-----------------------------------------------------------*/
-.clear {
-    clear: both;
-}
-
-.error {
-    color: Red;
-}
-
-nav, 
-#menucontainer {
-    margin-top: 40px;
-}
-
-div#title {
-    display: block;
+#selector-container, #playlist-container
+{
+    width: 760px;
     float: left;
-    text-align: left;
+    background-color: #ddd;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    margin: 0;
+    padding: 15px;
 }
 
-#logindisplay {
-    font-size: 1.1em;
-    display: block;
-    text-align: right;
-    margin: 10px;
-    color: White;
+#playlist-container
+{
+    width: 270px;
+    margin: 100px 0 0 0;
+    padding: 15px 0 15px 15px;
+    min-height: 50px;
 }
 
-#logindisplay a:link {
-    color: white;
-    text-decoration: underline;
+#selector-container
+{
+    float: right;
+    min-height: 500px;
 }
 
-#logindisplay a:visited {
-    color: white;
-    text-decoration: underline;
-}
-
-#logindisplay a:hover {
-    color: white;
-    text-decoration: none;
-}
-
-/* Styles for validation helpers
------------------------------------------------------------*/
-.field-validation-error {
-    color: #ff0000;
-}
-
-.field-validation-valid {
+#ticker
+{
+    float: left;
     display: none;
 }
 
-.input-validation-error {
-    border: 1px solid #ff0000;
-    background-color: #ffeeee;
+#artists-index
+{
+    margin: 0 auto;
+    padding: 10px 0 50px 0;
+    width: 740px;
 }
 
-.validation-summary-errors {
+#artists-index li
+{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-right: 9px;
+    font-size: 1.6em;
     font-weight: bold;
-    color: #ff0000;
 }
 
-.validation-summary-valid {
-    display: none;
+#playlist
+{
+    float: left;
+    width: 255px;
+    margin: 10px 0 0 0;
+    padding: 0;
 }
 
-/* Styles for editor and display helpers
-----------------------------------------------------------*/
-.display-label, 
-.editor-label {
-    margin: 1em 0 0 0;
+#playlist li
+{
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0;
 }
 
-.display-field, 
-.editor-field {
-    margin: 0.5em 0 0 0;
+#playlist li .title
+{
+    font-weight: bold;
 }
 
-.text-box {
-    width: 30em;
+#artists
+{
+    float: left;
+    width: 200px;
+    margin: 0;
+    padding: 0;
 }
 
-.text-box.multi-line {
-    height: 6.5em;
+#artists li
+{
+    list-style-type: none;
+    margin: 10px 0 0 10px;
+    padding: 0;
 }
 
-.tri-state {
-    width: 6em;
+#albums
+{
+    float: left;
+    width: 520px;
+    margin: 0 0 0 -1px;
+    padding: 0 0 0 20px;
+}
+
+#albums li
+{
+    list-style-type: none;
+    margin: 10px 0 0 0;
+    padding: 0 0 20px 0;
+    float: left;
+}
+
+#albums li img.album-cover
+{
+    height: 150px;
+    width: 150px;
+    float: left;
+}
+
+#albums li ul.tracks
+{
+    margin: 0 0 0 20px;
+    padding: 0 0 0 0;
+    float: left;
+    width: 340px;
+}
+
+#albums li ul.tracks li
+{
+    margin: 5px 0 0 5px;
+    padding: 0;
+    border: 0;
+    float: none;
+}
+
+#albums li ul.tracks li span.album-name
+{
+    font-size: 1.2em;
+    font-weight: bold;
 }

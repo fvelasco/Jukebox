@@ -22,11 +22,16 @@ namespace Jukebox.WebApplication
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(
-                "Default", // Route name
-                "{controller}/{action}/{id}", // URL with parameters
-                new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
+                "Player", // Route name
+                "{controller}/{action}", // URL with parameters
+                new { controller = "Player", action = "Index" } // Parameter defaults
             );
 
+            routes.MapRoute(
+                "Admin", // Route name
+                "{controller}/{action}", // URL with parameters
+                new { controller = "Admin", action = "Index" } // Parameter defaults
+            );
         }
 
         protected void Application_Start()
