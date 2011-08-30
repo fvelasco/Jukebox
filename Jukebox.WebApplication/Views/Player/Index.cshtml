@@ -42,20 +42,27 @@
             CreatePlaylist("playlist", oData.aaTracks);
         })
         .error(function (xhr, ajaxOptions, thrownError) {
-            alert("Error");
+            //alert("Error");
         });
     }
 
     function CreatePlaylist(listId, aaTracks) {
+        var itemCount = 0;
         $("ul#" + listId).html("");
 
         $.each(aaTracks, function (i, item) {
+            var remove = " &nbsp; <div class=\"remove\" onclick=\"RemoveSong('" + item[7] + "', '" + item[1] + "')\" ></div>";
+            if(itemCount < 1) {
+                remove = "";
+            }
             $("ul#" + listId).append(
                 "<li>"
-                    + "<span class=\"title\">" + item[0] + "</span> "
+                    + remove
+                    + "<span class=\"title\">" + item[0] + "</span> &nbsp; "
                     + "<span class=\"duration\">" + item[5] + "</span><br \>"
                     + "<span class=\"artist\">" + item[2] + "</span> "
                 + "</li>");
+            itemCount++;
         });
 
         count++;
@@ -114,7 +121,7 @@
         $.each(aaAlbums, function (i, item) {
             $("ul#" + listId).append(
                 "<li>"
-                    + "<img class=\"album-cover\" src=\"" + item.sImage + "\" title=\"" + item.sName + "\" /> "
+                    + "<img class=\"album-cover\" src=\"" + item.sImage + "\" /> "
                     + "<ul class=\"tracks\">"
                         + "<li><a href=\"javascript:AddAlbum('" + artistId + "', '" + item.gId + "')\" >"
                         + "<span class=\"album-name\">" + item.sName + "</span>"
@@ -134,7 +141,7 @@
                     + "<span class=\"number\">" + item[4] + ".</span> "
                     + "<span class=\"add\" onclick=\"AddSong('" + item[7] + "', '" + item[1] + "')\" >"
                         + "<span class=\"name\">" + item[0] + "</span>"
-                    + "</span> "
+                    + "</span> &nbsp; "
                     + "<span class=\"duration\">" + item[5] + "</span>"
                 + "</li>");
         });
@@ -163,6 +170,18 @@
         });
     }
 
+    function RemoveSong(id, path) {
+        // TODO: Confirm
+        $.getJSON(("/Player/RemoveSong?id=" + id + "&path=" + path),
+        function (data) { oData = data; })
+        .success(function () {
+            //alert(oData.sMessage);
+        })
+        .error(function (xhr, ajaxOptions, thrownError) {
+            //alert("Error");
+        });
+    }
+    
     function PlayOrPause() {
         $.getJSON("/Player/PlayOrPause",
         function (data) { oData = data; })

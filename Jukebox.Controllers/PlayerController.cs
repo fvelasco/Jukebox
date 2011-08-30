@@ -26,11 +26,13 @@ namespace Jukebox.Controllers
             {
                 if (musicLibrary == null)
                 {
-                    musicLibrary = (MusicLibraryModel)HttpContext.Cache.Get("musicLibrary");
+                    //musicLibrary = (MusicLibraryModel)HttpContext.Cache.Get("musicLibrary");
+                    musicLibrary = (MusicLibraryModel)HttpContext.Application["musicLibrary"];      
                     if (musicLibrary == null)
                     {
                         musicLibrary = GetMusicLibrary(string.Format(@"{0}\\MusicLibrary.xml", Path));
-                        HttpContext.Cache.Insert("musicLibrary", musicLibrary, null, Cache.NoAbsoluteExpiration, new TimeSpan(1, 0, 0), CacheItemPriority.High, null);
+                        //HttpContext.Cache.Insert("musicLibrary", musicLibrary, null, Cache.NoAbsoluteExpiration, new TimeSpan(1, 0, 0, 0), CacheItemPriority.High, null);
+                        HttpContext.Application.Add("musicLibrary", musicLibrary);
                     }
                 }
                 return musicLibrary;
@@ -44,11 +46,13 @@ namespace Jukebox.Controllers
             {
                 if(player == null)
                 {
-                    player = (WMPLib.WindowsMediaPlayer)HttpContext.Cache.Get("player");
+                    //player = (WMPLib.WindowsMediaPlayer)HttpContext.Cache.Get("player");
+                    player = (WMPLib.WindowsMediaPlayer)HttpContext.Application["player"];
                     if(player == null)
                     {
                         player = new WMPLib.WindowsMediaPlayer();
-                        HttpContext.Cache.Insert("player", player, null, Cache.NoAbsoluteExpiration, new TimeSpan(1, 0, 0), CacheItemPriority.High, null);                        
+                        //HttpContext.Cache.Insert("player", player, null, Cache.NoAbsoluteExpiration, new TimeSpan(1, 0, 0, 0), CacheItemPriority.High, null);  
+                        HttpContext.Application.Add("player", player);
                     }
                 }
                 return player;
@@ -267,8 +271,10 @@ namespace Jukebox.Controllers
                 {
                     var item = Player.currentPlaylist.get_Item(i);
                     if (string.Equals(item.sourceURL, path, StringComparison.OrdinalIgnoreCase))
+                    {
                         addSong = false;
                         break;
+                    }
                 }
 
                 if (addSong)
@@ -279,15 +285,48 @@ namespace Jukebox.Controllers
                     if (!Player.playState.Equals(WMPLib.WMPPlayState.wmppsPlaying))
                     {
                         Player.CurrentItemChange += (Player_CurrentItemChange);
-                        Player.PlayStateChange += (Player_PlayStateChange);
+                        Player.PlayStateChange += (Player_PlayStateChange);                      
                         Player.MediaError += (Player_MediaError);
                         Player.controls.play();
                     }
-                }
+                } 
 
                 return Json(new
                 {
                     sMessage = string.Format("Added '{0}' !", path)  
+                }, JsonRequestBehavior.AllowGet);
+            }
+            catch (Exception ex)
+            {
+                return new HttpStatusCodeResult(500, string.Format("{0}: {1}", ex.Message, ex.InnerException));
+            }
+        }
+
+        // AJAX: /Player/RemoveSong
+        public ActionResult RemoveSong(string id, string path)
+        {
+            try
+            {
+                var mediaItems = new List<IWMPMedia>();
+                for (var i = 0; i < Player.currentPlaylist.count; i++)
+                {
+                    var item = Player.currentPlaylist.get_Item(i);
+
+                    if (string.Equals(item.sourceURL, path, StringComparison.OrdinalIgnoreCase))
+                    {
+                        mediaItems.Add(item);
+                        break;
+                    }
+                }
+
+                foreach (var mediaItem in mediaItems)
+                {
+                    Player.currentPlaylist.removeItem(mediaItem);
+                }
+
+                return Json(new
+                {
+                    sMessage = string.Format("Removed '{0}' !", path)  
                 }, JsonRequestBehavior.AllowGet);
             }
             catch (Exception ex)

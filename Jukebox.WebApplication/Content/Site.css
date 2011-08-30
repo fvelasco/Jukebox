@@ -104,6 +104,9 @@ page width. Or, you can specify an exact pixel width. */
 
 h1 {
     position: absolute;
+    background: url('/Content/logo.png') no-repeat;
+    width: 210px;
+    height:58px;
     top: 10px;
     left: 10px;
     font-size: 3.0em;
@@ -195,6 +198,15 @@ footer,
 #playlist li .title
 {
     font-weight: bold;
+}
+
+#playlist-container .remove
+{
+    background: url('/Content/delete.png') no-repeat;
+    width: 17px;
+    height: 17px;
+    float: left;
+    cursor: pointer;
 }
 
 #artists
